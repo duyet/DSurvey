@@ -6,8 +6,8 @@ module.exports = {
 		title: 'Dsurvey - Development Environment'
 	},
 	facebook: {
-		clientID: process.env.FACEBOOK_ID || 'APP_ID',
-		clientSecret: process.env.FACEBOOK_SECRET || 'APP_SECRET',
+		clientID: process.env.FACEBOOK_ID || '1080115615336271',
+		clientSecret: process.env.FACEBOOK_SECRET || '4dfc909a778395bb8b5fc4e41bc5d2f4',
 		callbackURL: '/auth/facebook/callback'
 	},
 	twitter: {

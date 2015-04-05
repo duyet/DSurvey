@@ -5,12 +5,19 @@ angular.module('surveys').controller('SurveysController', ['$scope', '$statePara
 	function($scope, $stateParams, $location, Authentication, Surveys) {
 		$scope.authentication = Authentication;
 
+		$scope.publish_modes = [
+			{key: 'public', name: 'Public'},
+			{key: 'only_have_link', name: 'Only have URL'},
+			{key: 'private', name: 'Private'},
+		];
+
 		// Create new Survey
 		$scope.create = function() {
 			// Create new Survey object
 			var survey = new Surveys ({
 				name: this.name,
-				description: this.description
+				description: this.description,
+				publish_mode: this.publishmode
 			});
 
 			// Redirect after save

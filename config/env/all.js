@@ -14,6 +14,9 @@ module.exports = {
 		lib: {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.css',
+				'public/lib/font-awesome/css/font-awesome.min.css',
+				'public/lib/angular-ui-select/dist/select.min.css',
+				'public/lib/textAngular/src/textAngular.css',
 			],
 			js: [
 				'public/lib/angular/angular.js',
@@ -24,7 +27,12 @@ module.exports = {
 				'public/lib/angular-sanitize/angular-sanitize.js', 
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
 				'public/lib/angular-ui-utils/ui-utils.js',
-				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js'
+				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
+				'public/lib/angular-ui-select/dist/select.min.js',
+				'public/lib/textAngular/dist/textAngular-rangy.min.js',
+				'public/lib/textAngular/dist/textAngular-sanitize.min.js',
+				'public/lib/textAngular/src/textAngularSetup.js',
+				'public/lib/textAngular/dist/textAngular.min.js'
 			]
 		},
 		css: [

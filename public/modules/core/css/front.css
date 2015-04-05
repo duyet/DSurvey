@@ -13,7 +13,7 @@ h3 {
 }
 
 h1, .h1 {
-	font-size: 44px;
+	font-size: 36px;
 	color: #299abe;
 	font-weight: 800;
 }
@@ -434,4 +434,14 @@ nav ol li, nav ul li {
   font-size: 16px;
   text-transform: uppercase;
   border-width: 2px;
+}
+
+.ta-root.focussed > .ta-scroll-window.form-control {
+  outline: 0;
+  -webkit-box-shadow: none; 
+  -moz-box-shadow: none;
+  box-shadow: none; 
+}
+.ta-root > .ta-scroll-window.form-control {
+  margin-top: 7px;
 }

@@ -11,13 +11,13 @@ module.exports = {
 		callbackURL: '/auth/facebook/callback'
 	},
 	twitter: {
-		clientID: process.env.TWITTER_KEY || 'CONSUMER_KEY',
-		clientSecret: process.env.TWITTER_SECRET || 'CONSUMER_SECRET',
+		clientID: process.env.TWITTER_KEY || 'O0QnK3JsCXjLja4Tbk9h2NpWD',
+		clientSecret: process.env.TWITTER_SECRET || 'IjM46sq1rQq5FTiBHloKT39zOukVj34UskTgX4UEGoPZboluSs',
 		callbackURL: '/auth/twitter/callback'
 	},
 	google: {
-		clientID: process.env.GOOGLE_ID || 'APP_ID',
-		clientSecret: process.env.GOOGLE_SECRET || 'APP_SECRET',
+		clientID: process.env.GOOGLE_ID || '911008727262-voh71s2sf84m8nv7gaatpllkm4ok1k7k.apps.googleusercontent.com',
+		clientSecret: process.env.GOOGLE_SECRET || 'EVW4whEBAa9uX1mtBsgKF_UE',
 		callbackURL: '/auth/google/callback'
 	},
 	linkedin: {

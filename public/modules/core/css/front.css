@@ -12,6 +12,16 @@ h3 {
   font-family: Lato;
 }
 
+h1, .h1 {
+	font-size: 44px;
+	color: #299abe;
+	font-weight: 800;
+}
+
+label {
+	font-weight: 300;
+}
+
 .navbar {
 	background: #59bcdb;
 	border-color: #59bcdb;
@@ -207,8 +217,18 @@ textarea, input[type="text"], input[type="password"], input[type="select"], inpu
   height: 50px;
   background-color: #fff;
   border-radius: 0;
+  -webkit-border-radius: 0;
   box-shadow: none;
+  -webkit-box-shadow: none;
 }
+
+.form-control {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
 .form-control:focus {
 	box-shadow: none;
 	-webkit-box-shadow: none;

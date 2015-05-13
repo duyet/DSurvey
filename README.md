@@ -1,7 +1,7 @@
 A1 Project 
 ======================
 
-Alpha Team 
+Survey Tools, Social. Power by Alpha Team.
 
 Timeline 
 ======================
@@ -17,3 +17,9 @@ Project name: A1
 Author: Alpha Team 
 
 Tech: Nodejs, AngularJs, MongoDB.
+
+External Links
+=======================
+
+1. Trello Board: https://trello.com/b/FLDFdmqZ/a1
+2. Sheet Report: https://goo.gl/XzpFMF

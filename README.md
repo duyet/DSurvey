@@ -18,6 +18,8 @@ Author: Alpha Team
 
 Tech: Nodejs, AngularJs, MongoDB.
 
+<img src="http://i.imgur.com/f0mdTqW.png" />
+
 External Links
 =======================
 

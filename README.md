@@ -25,3 +25,7 @@ External Links
 
 1. Trello Board: https://trello.com/b/FLDFdmqZ/a1
 2. Sheet Report: https://goo.gl/XzpFMF
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/duyetdev/dsurvey/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
